@@ -17,4 +17,5 @@ jobs:
         USER_PASS: vps
      - name: Don't kill instace
        if: ${{ failure() }}
+       run: sleep 10000h
      
